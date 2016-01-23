@@ -12,6 +12,107 @@
 </head>
 <body ng-controller="js7Troller">
 
+<button class="stats-button" ng-click="showMetrics($event)">Page Stats</button>
+
+<div class="popup-container" ng-show="lightBoxSwitch">
+	<div class="popup">
+		<h2>Stats Popup</h2>
+		<p><strong>Page Viewed:</strong> {{pageViewed}}</p>
+		<p><strong>Distance Scrolled:</strong> {{distanceScrolled | number: 2}}%</p>
+		<p><strong>Time to Signup:</strong> {{timeToSignup}}</p>
+		<p><strong>Time on Page:</strong> {{timeOnPage}}</p>
+		<p><strong>Time on Section:</strong> {{timeOnSection}}</p>
+		<p>Time Now: {{time}}</p>
+		<div style="width: 100%; text-align: center;"><button class="lightbox-close-button" ng-click="closeLightbox()">CLOSE</button></div>
+	</div>
+</div>
+
+<h1>Long Landing Page</h1>
+
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<h2>Landing Page Subtitle</h2>
+
+<img src="http://placehold.it/300x200">
+<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris diam magna, aliquet vitae congue eu, blandit quis dolor. Aliquam vulputate, mi eget rutrum sagittis, nisi sem ullamcorper dolor, aliquam dictum quam elit at libero. In egestas, elit nec pulvinar laoreet, lorem lorem ultricies justo, nec blandit est ante id metus. Phasellus facilisis malesuada orci, nec tincidunt tellus ullamcorper in. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Cras justo elit, efficitur nec laoreet id, consectetur sed est. Nam a leo cursus, pharetra quam sed, volutpat massa. Etiam condimentum ornare odio id rutrum. Nunc lacinia orci tellus, non venenatis ante cursus ac. Aliquam id mi imperdiet quam consectetur vestibulum. Pellentesque enim ex, finibus at odio nec, feugiat faucibus enim.</p>
+
+<button class="signup-button">SIGNUP</button>
+
 </body>
 
 </html>

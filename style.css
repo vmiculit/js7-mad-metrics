@@ -1,0 +1,76 @@
+body {
+	margin: 150px;
+}
+
+img {
+	padding: 10px;
+}
+
+img:nth-child(odd) {
+	float: right;
+}
+img:nth-child(even) {
+	float: left;
+}
+
+h2 {
+	clear: both;
+	padding: 10px;
+}
+
+p {
+	padding: 10px;
+}
+
+.stats-button {
+	margin: 20px 5px 20px 20px;
+	padding: 10px;
+	background: lightgreen;
+	position: fixed;
+	right: 0;
+	top: 0;
+}
+
+.signup-button {
+	margin-top: 60px;
+	clear: both;
+	display: block;
+	width: 100%;
+	padding: 30px;
+	background: peachpuff;
+	font-size: 2rem;
+}
+
+.popup-container {
+	position: fixed;
+	top: 0;
+	left: 0;
+	width: 100vw;
+	height: 100vh;
+	line-height: 100vh;
+	background: rgba(230, 230, 230, 0.6);
+	text-align: center;
+	vertical-align: middle;
+
+}
+
+.popup {
+	text-align: left;
+	display: inline-block;
+	height: auto;
+	width: 500px;
+	background: rgba(250, 250, 212, 1);
+	line-height: initial;
+	padding: 10px;
+	box-shadow: 0px 0px 8px rgba(0, 0, 0, .3);
+	margin-top: 100px;
+}
+
+.lightbox-close-button {
+	padding: 10px 20px;
+}
+
+
+
+
+
